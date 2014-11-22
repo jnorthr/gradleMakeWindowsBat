@@ -3,7 +3,7 @@ gradleMakeWindowsBat
 
 Skeleton gradle project template to build an executable java jar plus all distributable assets for a 'HelloWorld' java source. This is to deploy your app as a stand-alone app on a client system, something like a GUI, or batch job app - **NOT** a web service. 
 
-The tasks to do this are a freebie when a *build.gradle* file includes a plugin module named 'application' courtesy of 
+The tasks to do this are a freebie when a *build.gradle* file includes a plugin module named 'application' courtesy of  
 
 > apply plugin:'application'
 
