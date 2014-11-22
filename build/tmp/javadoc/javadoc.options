@@ -1,0 +1,6 @@
+-classpath '/Users/jim/Dropbox/gradleMakeWindowsBat/build/classes/main:/Users/jim/Dropbox/gradleMakeWindowsBat/build/resources/main:/Users/jim/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar:/Users/jim/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar:/Users/jim/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/562424e36df3d2327e8e9301a76027fca17d54ea/slf4j-api-1.7.6.jar'
+-d '/Users/jim/Dropbox/gradleMakeWindowsBat/build/docs/javadoc'
+-doctitle 'gradleMakeWindowsBat 1.0 API'
+-quiet 
+-windowtitle 'gradleMakeWindowsBat 1.0 API'
+'/Users/jim/Dropbox/gradleMakeWindowsBat/src/main/java/com/jnorthr/DateUtils.java'
