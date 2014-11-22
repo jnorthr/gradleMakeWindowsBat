@@ -71,9 +71,9 @@ defaultTasks 'clean','build','javadoc','installApp', 'startScripts', 'fatJar', '
 
  * Everything needed has been included in this 'fat' jar !
 
-## Tasks to Transfer The Build Environment
+## Tasks to Transfer The Project Build Environment
 
-When we need to move/copy/transfer a complete application that includes all the development tools, build stuff and source code controls, we can use either of these two tasks depending on the target computer system's OS:
+When we need to move/copy/transfer a complete project that includes all the development tools, build stuff and source code controls, we can use either of these two tasks depending on the target computer system's OS:
 
  * *distTar* packages up the full folder directory and makes it ready for shipment to a target computer system running Unix/Linux/Ubuntu etc.  
  * *distZip* packages up the full project folder directory in a compressed archive format. This is useful as a general-purpose tool to move a complete project around to target computer systems where the OS is unconventional like, say, Windows, IBM, DEC.
