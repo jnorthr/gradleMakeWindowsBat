@@ -1,0 +1,5 @@
+.DS_Store
+.gradle/
+build/classes/
+build/dependency-cache
+build/tmp/
