@@ -1,21 +1,16 @@
 package com.jnorthr;
  
 import java.util.Date;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
  
 public class DateUtils{
+  
+ public static void main(String[] args) {
  
-	private static final Logger logger = LoggerFactory.getLogger(DateUtils.class);
+  System.out.println(getCurrentDate());
+ }
  
-	public static void main(String[] args) {
- 
-		logger.debug("[MAIN] Current Date : {}", getCurrentDate());
-		System.out.println(getCurrentDate());
-	}
- 
-	private static Date getCurrentDate(){
-		return new Date();
-	}
+ private static Date getCurrentDate(){
+  return new Date();
+ }
  
 }
