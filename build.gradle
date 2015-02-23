@@ -1,4 +1,5 @@
 apply plugin: 'java'
+apply plugin: 'groovy' // to run tests
 apply plugin:'application'
  
 version = '1.0'
@@ -25,7 +26,21 @@ task fatJar(type: Jar) {
 repositories {
     mavenCentral()
 }
- 
+
+dependencies {
+    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'  // to run tests
+    testCompile 'org.springframework.boot:spring-boot:1.2.1.RELEASE'    // to run tests
+}
+
+// setup environment for test framework
+test {
+        maxParallelForks = Runtime.getRuntime().availableProcessors()
+        testLogging {
+            showStandardStreams = true
+        }
+}
+
+
 task createDocs {
     def docs = file("$buildDir/docs")
     outputs.dir docs
