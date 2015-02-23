@@ -72,7 +72,7 @@ set CMD_LINE_ARGS=%$
 set CLASSPATH=%APP_HOME%\lib\gradleMakeWindowsBat-1.0.jar
 
 @rem Execute gradleMakeWindowsBat
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_MAKE_WINDOWS_BAT_OPTS%  -classpath "%CLASSPATH%" com.jnorthr.DateUtils %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_MAKE_WINDOWS_BAT_OPTS%  -classpath "%CLASSPATH%" com.jnorthr.HelloWorld %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell

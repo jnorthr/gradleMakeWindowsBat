@@ -7,14 +7,14 @@ targetCompatibility = 1.6
  
 defaultTasks 'clean','build','javadoc','installApp', 'startScripts', 'fatJar', 'distTar', 'distZip', 'run'
 
-mainClassName = "com.jnorthr.DateUtils"
+mainClassName = "com.jnorthr.HelloWorld"
 
 //create a single Jar with all dependencies
 task fatJar(type: Jar) {
 	manifest {
         attributes 'Implementation-Title': 'Gradle Jar File Example',  
         	'Implementation-Version': version,
-        	'Main-Class': 'com.jnorthr.DateUtils'
+        	'Main-Class': 'com.jnorthr.HelloWorld'
     }
     baseName = project.name + '-all'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
