@@ -69,7 +69,7 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\gradleMakeWindowsBat-1.0.jar;%APP_HOME%\lib\logback-classic-1.1.2.jar;%APP_HOME%\lib\logback-core-1.1.2.jar;%APP_HOME%\lib\slf4j-api-1.7.6.jar
+set CLASSPATH=%APP_HOME%\lib\gradleMakeWindowsBat-1.0.jar
 
 @rem Execute gradleMakeWindowsBat
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %GRADLE_MAKE_WINDOWS_BAT_OPTS%  -classpath "%CLASSPATH%" com.jnorthr.DateUtils %CMD_LINE_ARGS%
