@@ -26,12 +26,6 @@ repositories {
     mavenCentral()
 }
  
-//Project dependencies
-dependencies {
-	compile 'ch.qos.logback:logback-classic:1.1.2'
-	runtime 'ch.qos.logback:logback-classic:1.1.2'
-}
-
 task createDocs {
     def docs = file("$buildDir/docs")
     outputs.dir docs

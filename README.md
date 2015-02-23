@@ -34,7 +34,7 @@ or
 
 > bash ./gradlew check
 
-This will ask gradle to download any dependency bits it needs to make it happy, and check that everything is cool on your installed version.
+This will ask gradle to download any dependency bits it needs to make it happy, and check that everything is cool on your installed version. You need to be online to do that.
 
 
 # Build
@@ -88,6 +88,19 @@ Both tasks run as a default set of tasks. Project build times may seem excessive
 
 change to suit your own requirements.
 
+### Execute The Resulting Jar
+
+Alternatively, uncompress the .tar or the .zip files. Change directory into the created /libs folder like:
+
+> macbook-pro:libs fred$ pwd
+
+> /Users/fred/Dropbox/gradleMakeWindowsBat/build/libs
+
+> macbook-pro:libs fred$ java -jar gradleMakeWindowsBat-all-1.0.jar 
+
+> Mon Feb 23 16:39:18 CET 2015
+
+The date line above came from the java module whose source code can be found in the **/Users/fred/Dropbox/gradleMakeWindowsBat/src/main/java/com/jnorthr** folder.
 
 
  
