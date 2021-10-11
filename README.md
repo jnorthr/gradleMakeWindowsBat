@@ -84,7 +84,7 @@ Both tasks run as a default set of tasks. Project build times may seem excessive
 
  * the *run* task starts execution of an app. The app name is declared in the **build.gradle** file as 
  
-> *mainClassName = "com.jnorthr.DateUtils"*
+> *mainClassName = "com.jnorthr.HelloWorld"*
 
 change to suit your own requirements.
 
